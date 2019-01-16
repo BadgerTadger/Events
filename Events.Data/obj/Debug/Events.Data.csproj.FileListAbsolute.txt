@@ -1,0 +1,14 @@
+D:\Daren\MVC\Events-Lab\Events.Data\bin\Debug\Events.Data.dll.config
+D:\Daren\MVC\Events-Lab\Events.Data\bin\Debug\Events.Data.dll
+D:\Daren\MVC\Events-Lab\Events.Data\bin\Debug\Events.Data.pdb
+D:\Daren\MVC\Events-Lab\Events.Data\bin\Debug\EntityFramework.dll
+D:\Daren\MVC\Events-Lab\Events.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Daren\MVC\Events-Lab\Events.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Daren\MVC\Events-Lab\Events.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Daren\MVC\Events-Lab\Events.Data\bin\Debug\EntityFramework.xml
+D:\Daren\MVC\Events-Lab\Events.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Daren\MVC\Events-Lab\Events.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Daren\MVC\Events-Lab\Events.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Daren\MVC\Events-Lab\Events.Data\obj\Debug\Events.Data.csprojResolveAssemblyReference.cache
+D:\Daren\MVC\Events-Lab\Events.Data\obj\Debug\Events.Data.dll
+D:\Daren\MVC\Events-Lab\Events.Data\obj\Debug\Events.Data.pdb
