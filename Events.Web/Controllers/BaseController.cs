@@ -8,6 +8,7 @@
     using System.Web;
     using System.Web.Mvc;
 
+    [ValidateInput(false)]
     public class BaseController : Controller
     {
         protected ApplicationDbContext db = new ApplicationDbContext();
