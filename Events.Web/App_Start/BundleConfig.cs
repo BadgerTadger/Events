@@ -29,7 +29,7 @@
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap-datetimepicker").Include(
                       "~/Scripts/moment.js",
-                      "~/Scripts/bootstrap-datetimepicker.js"));
+                      "~/Scripts/bootstrap-datetimepicker.min.js"));
 
             bundles.Add(new StyleBundle("~/Content/bootstrap-datetimepicker").Include(
                       "~/Content/bootstrap-datetimepicker.min.css"));

@@ -49,11 +49,14 @@
         </div>
         <script>
             $(function () {
+                var date = new Date();
+                date.setHours(1);
+                date.setMinutes(0);
                 $('#Duration').datetimepicker(
                     {
                         format: "HH:mm",
-                        sideBySide: false,
-                        showTodayButton: false
+                        defaultDate: date,
+                        showClear: true,                        
                     });
             });
         </script>
