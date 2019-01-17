@@ -10,12 +10,25 @@
     using System.Web;
     using System.Web.Mvc;
 
+    [Authorize]
     public class EventsController : BaseController
     {
         //GET: Events/My
         public ActionResult My()
         {
-            return View();
+            string currentUserId = this.User.Identity.GetUserId();
+            var events = this.db.Events
+                .Where(e => e.AuthorId == currentUserId)
+                .OrderBy(e => e.StartDateTime)
+                .Select(EventViewModel.ViewModel);
+
+            var upcomingEvents = events.Where(e => e.StartDateTime > DateTime.Now);
+            var passedEvents = events.Where(e => e.StartDateTime <= DateTime.Now);
+            return View(new UpcomingPassedEventsViewModel()
+            {
+                UpcomingEvents = upcomingEvents,
+                PassedEvents = passedEvents
+            });
         }
 
         // GET: Events/Create
